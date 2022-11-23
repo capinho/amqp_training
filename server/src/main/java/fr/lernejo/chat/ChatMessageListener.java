@@ -12,7 +12,6 @@ public class ChatMessageListener {
     }
 
     public void onMessage(String message) {
-        //System.out.println(message);
         repository.addChatMessage(message);
 
     }
