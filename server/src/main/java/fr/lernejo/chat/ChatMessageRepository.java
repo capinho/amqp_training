@@ -22,7 +22,7 @@ public class ChatMessageRepository {
     }
 
     public List<String> getLastTenMessages() {
-        return messages;
+        return this.messages;
     }
 
 }
