@@ -19,7 +19,7 @@ public class ChatMessageRepository {
     }
 
     public List<String> getLastTenMessages() {
-        return messages.subList(0, Math.min(messages.size(), 0 + 10));
+        return messages.subList(0, Math.min(messages.size(), 10));
     }
 
 }
