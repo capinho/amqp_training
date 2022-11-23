@@ -16,6 +16,7 @@ public class Launcher {
             System.out.println("Input a message, we will sent it for you (q for quit)");
             String input = scanner.next();
             if (input.equals("q")){
+                System.out.println("Bye");
                 break;
             }
             else {
